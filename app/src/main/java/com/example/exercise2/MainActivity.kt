@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity() {
                 }
                 MotionEvent.ACTION_DOWN -> {
                     y_test = event.y
-                    ChangeColor()
                 }
             }
             true
